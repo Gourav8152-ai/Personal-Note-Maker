@@ -4,8 +4,85 @@
     box-sizing: border-box;
 }
 
+
+/* nav  */
+.topnav {
+    overflow: hidden;
+    background-color: #292a2d;
+}
+  
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+  
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+/* navbar end  */
+/* test 
+*/
+#uniqueSearch{
+    width: 100px;
+    height: 30px;
+    /* border-radius: 10%; */
+    color: white;
+    border: 1px solid white;
+}
+.search-bar{
+    float: inline-end;
+    /* margin: 6px 50px 0px 0px; */
+}
+
+
+.search-element:hover{
+    background-color: white;
+    color: black;
+
+}
+h2{
+    color: white;
+}
+
+.deletnote{
+    width: 300px;
+    color: #a1a0a0;
+    margin: 12px;
+    padding: 12px;
+    border: 1px solid black;
+    background: transparent;
+}
+#deleteNotes{
+    padding: 23px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+hr{
+    border: 1px solid white;
+}
+#home-header{
+    margin-top: 20px;
+}
+
+
+
+/* test end  */
 .container{
-    min-height: 100vh;
+    min-height: 50vh;
+    max-height: 100vh;
     width: 100vw;
     padding: 23px;
     background-color: #292a2d;
